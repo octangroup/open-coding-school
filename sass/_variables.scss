@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,500,600,700,800|Roboto:300,400,500');
+
+// Typography
+$primary-font: 'Nunito', sans-serif;
+$secondary-font: 'Nunito', sans-serif;
+$font-family-sans-default: "Roboto", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$body-bg: #f8fafc;
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #50c787;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$primary-lightest: #48aae1;
+$primary-lighter: #48a0d7;
+$primary-light: #4a95cd;
+$primary: #3855C2;
+$primary-dark: #457baf;
+$primary-darker: #49649b;
+$primary-darkest: #445187;
+
+$accent-lightest: #0a6fa7;
+$accent-lighter: #0a6aa2;
+$accent-light: #0a669d;
+$accent: #44ED9C;
+$accent-dark: #0a588e;
+$accent-darker: #0a4e84;
+$accent-darkest: #0a437a;
+
+
+$primary-semi-transparent: rgba(94, 203, 216, 0.51);
+$primary-tiny-transparent: rgba(242, 211, 203, 0.10);
+//$accent : #ec4551;
+$full-radius: 9999px;
+$white-smoke: #f7f7f7;
