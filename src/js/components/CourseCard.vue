@@ -22,7 +22,7 @@
                             <p class="my-2 text-sm font-bold"> <slot name="starting"></slot> </p>
                             <p class="my-2 text-sm font-bold"> <slot name="schedule"></slot></p>
 
-                            <a :href="url" class="my-2 text-sm font-bold text-blue"> {{preRegister ? 'Pre-register' : 'Register Now'}} </a>
+                            <a :href=" preRegister ? 'https://forms.gle/BYgx1miPYxUGc5qW8' : 'https://forms.gle/K3xB51gE39Ymqkco7'" class="my-2 text-sm font-bold text-blue"> {{preRegister ? 'Pre-register' : 'Register Now'}} </a>
                             <p v-if="showMore" @click="showMore = !showMore" class="text-xs text-blue font-bold font-primary my-0 text-right mr-3 cursor-pointer">Show less</p>
                     </div>
 

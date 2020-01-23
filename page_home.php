@@ -119,10 +119,7 @@ get_header();
                             You do, however, need to be ready to put in a lot of extra effort outside of class to manage
                             to crack the world of algorithms.
                     <template v-slot:starting>
-                    This course starts: 3rd Feb 2020
-                    </template>
-                    <template v-slot:schedule>
-                    Tuesdays and Thursdays from 6 PM - 8 PM
+                    This course starts in May
                     </template>
                 </course-card>
 
@@ -150,11 +147,11 @@ get_header();
                             are ready to be intensively challenged and put in a significant amount of work into the
                             course-content outside
                             of class-hours. 
-                    <template v-slot:starting>
-                    
+                            <template v-slot:starting>
+                    This course starts: 3rd Feb 2020
                     </template>
                     <template v-slot:schedule>
-                    
+                    Tuesdays and Thursdays from 6 PM - 8 PM
                     </template>
                 </course-card>
 
@@ -179,17 +176,17 @@ get_header();
                             You need to already have created at least some simple Android applications and
                             be willing to put in a significant amount of work into the course-content outside of
                             class-hours.
-                    <template v-slot:starting>
-                    
+                            <template v-slot:starting>
+                    This course starts: 3rd Feb 2020
                     </template>
                     <template v-slot:schedule>
-                    
+                    Tuesdays and Thursdays from 6 PM - 8 PM
                     </template>
                 </course-card>
 
 
 
-                <course-card border-color="border-orange" icon-color="bg-orange-lighter" icon-url="<?php echo get_template_directory_uri(); ?>/img/ruby.png">
+                <course-card :pre-register="true" border-color="border-orange" icon-color="bg-orange-lighter" icon-url="<?php echo get_template_directory_uri(); ?>/img/ruby.png">
                     <template v-slot:title>
                     Ruby on Rails
                     </template>
@@ -204,10 +201,7 @@ get_header();
                             To take part in this course you should be familiar with HTML/CSS and
                             have intermediate knowledge in at least one programming language (e.g. JavaScript).
                     <template v-slot:starting>
-                    
-                    </template>
-                    <template v-slot:schedule>
-                    
+                    This course starts in May
                     </template>
                 </course-card>
 
@@ -228,7 +222,7 @@ get_header();
                 <p class="font-secondary font-bold">Advanced class</p>
                 <div class="flex xs:block">
 
-                <course-card border-color="border-red-light" icon-color="bg-red-lighter" icon-url="<?php echo get_template_directory_uri(); ?>/img/php.png">
+                <course-card :pre-register="true" border-color="border-red-light" icon-color="bg-red-lighter" icon-url="<?php echo get_template_directory_uri(); ?>/img/php.png">
                     <template v-slot:title>
                     Advanced Software architecture with PHP
                     </template>
@@ -249,15 +243,12 @@ get_header();
                                 application process,
                                 to verify their skill-level.
                     <template v-slot:starting>
-                    
-                    </template>
-                    <template v-slot:schedule>
-                    
+                    This course starts in June
                     </template>
                 </course-card>
 
 
-                <course-card border-color="border-red-light" icon-color="bg-red-lighter" icon-url="<?php echo get_template_directory_uri(); ?>/img/we.png" >
+                <course-card :pre-register="true" border-color="border-red-light" icon-color="bg-red-lighter" icon-url="<?php echo get_template_directory_uri(); ?>/img/we.png" >
                     <template v-slot:title>
                     Designing digital products
                     </template>
@@ -276,15 +267,12 @@ get_header();
                                 digital products and can show a portfolio of a number of digital product designs you
                                 have created.
                     <template v-slot:starting>
-                    
-                    </template>
-                    <template v-slot:schedule>
-                    
+                    This course starts in June
                     </template>
                 </course-card>
 
 
-                <course-card border-color="border-red-light" icon-color="bg-red-lighter" icon-url="<?php echo get_template_directory_uri(); ?>/img/software.png">
+                <course-card :pre-register="true" border-color="border-red-light" icon-color="bg-red-lighter" icon-url="<?php echo get_template_directory_uri(); ?>/img/software.png">
                     <template v-slot:title>
                     DevOps
                     </template>
@@ -300,10 +288,7 @@ get_header();
                                 the recommended technologies and tools.
                                 Master classes start on flexible dates.
                     <template v-slot:starting>
-                    
-                    </template>
-                    <template v-slot:schedule>
-                    
+                     This course starts in June
                     </template>
                 </course-card>
                     
