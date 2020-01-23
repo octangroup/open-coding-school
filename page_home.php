@@ -57,7 +57,7 @@ get_header();
             <p class="font-secondary font-bold my-4">Beginner class</p>
             <div class="flex flex-wrap xs:block">
 
-                <course-card icon-url="<?php echo get_template_directory_uri(); ?>/img/mobile-app.svg">
+                <course-card border-color="border-green-light" icon-color="bg-green-lightest" icon-url="<?php echo get_template_directory_uri(); ?>/img/mobile-app.svg">
                     <template v-slot:title>
                         Mobile App
                     </template>
