@@ -19,7 +19,7 @@
     <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/logo.png">
     <?php wp_head(); ?>
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css"/>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/main.css"/>
     <script src="https://kit.fontawesome.com/221ac0e2fd.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
     <style>

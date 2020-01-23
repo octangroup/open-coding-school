@@ -25,15 +25,9 @@
         </div>
     </div>
 </footer>
-<script>
-    $('.toggler').click(function () {
-        let data = $(this).data('toggle');
-        $(data).toggle(100);
-    });
-</script>
 </div><!-- #page -->
+<script src="<?php echo get_template_directory_uri(); ?>/dist/js/app.js"></script>
 
-<?php wp_footer(); ?>
 
 </body>
 </html>
