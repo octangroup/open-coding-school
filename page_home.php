@@ -77,7 +77,7 @@ get_header();
                     This course starts: 10th Feb 2020
                     </template>
                     <template v-slot:schedule>
-                        Mondays and Wednesday from 6 PM - 8 PM
+                        Mondays and Wednesdays from 6 PM - 8 PM
                     </template>
                 </course-card>
                 <course-card border-color="border-green-light" icon-color="bg-green-lightest" icon-url="<?php echo get_template_directory_uri(); ?>/img/app.png">
@@ -98,7 +98,7 @@ get_header();
                     This course starts: 10th Feb 2020
                     </template>
                     <template v-slot:schedule>
-                    Mondays and Wednesday from 6 PM - 8 PM
+                    Mondays and Wednesdays from 6 PM - 8 PM
                     </template>
                 </course-card>
                 <course-card :pre-register="true" border-color="border-green-light" icon-color="bg-green-lightest" icon-url="<?php echo get_template_directory_uri(); ?>/img/python.png">
