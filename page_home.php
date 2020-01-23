@@ -43,7 +43,7 @@ get_header();
                 </div>
 
                 <div class="w-50 absolute hidden xl:block -r-15 -t-10">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/Group 29.png" class="clip-full">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pic.png" class="clip-full">
 
                 </div>
 
@@ -151,10 +151,10 @@ get_header();
                             course-content outside
                             of class-hours. 
                     <template v-slot:starting>
-                    This course starts: 3rd Feb 2020
+                    
                     </template>
                     <template v-slot:schedule>
-                    Tuesdays and Thursdays from 6 PM - 8 PM
+                    
                     </template>
                 </course-card>
 
@@ -180,10 +180,10 @@ get_header();
                             be willing to put in a significant amount of work into the course-content outside of
                             class-hours.
                     <template v-slot:starting>
-                    This course starts: 3rd Feb 2020
+                    
                     </template>
                     <template v-slot:schedule>
-                    Tuesdays and Thursdays from 6 PM - 8 PM
+                    
                     </template>
                 </course-card>
 
@@ -204,10 +204,10 @@ get_header();
                             To take part in this course you should be familiar with HTML/CSS and
                             have intermediate knowledge in at least one programming language (e.g. JavaScript).
                     <template v-slot:starting>
-                    This course starts: 3rd Feb 2020
+                    
                     </template>
                     <template v-slot:schedule>
-                    Tuesdays and Thursdays from 6 PM - 8 PM
+                    
                     </template>
                 </course-card>
 
@@ -249,10 +249,10 @@ get_header();
                                 application process,
                                 to verify their skill-level.
                     <template v-slot:starting>
-                    This course starts: 3rd Feb 2020
+                    
                     </template>
                     <template v-slot:schedule>
-                    Tuesdays and Thursdays from 6 PM - 8 PM
+                    
                     </template>
                 </course-card>
 
@@ -276,10 +276,10 @@ get_header();
                                 digital products and can show a portfolio of a number of digital product designs you
                                 have created.
                     <template v-slot:starting>
-                    This course starts: 3rd Feb 2020
+                    
                     </template>
                     <template v-slot:schedule>
-                    Tuesdays and Thursdays from 6 PM - 8 PM
+                    
                     </template>
                 </course-card>
 
@@ -300,10 +300,10 @@ get_header();
                                 the recommended technologies and tools.
                                 Master classes start on flexible dates.
                     <template v-slot:starting>
-                    This course starts: 3rd Feb 2020
+                    
                     </template>
                     <template v-slot:schedule>
-                    Tuesdays and Thursdays from 6 PM - 8 PM
+                    
                     </template>
                 </course-card>
                     
