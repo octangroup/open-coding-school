@@ -43,7 +43,7 @@ get_header();
                 </div>
 
                 <div class="w-50 absolute hidden xl:block -r-15 -t-10">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/pic.svg" class="clip-full">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pic.png" class="clip-full">
 
                 </div>
 
