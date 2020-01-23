@@ -74,10 +74,10 @@ get_header();
                                     little prior knowledge in software development and wants a practical hands-on way to
                                     get started in this field.
                     <template v-slot:starting>
-                    This course starts: 3rd Feb 2020
+                    This course starts: 10th Feb 2020
                     </template>
                     <template v-slot:schedule>
-                    Tuesdays and Thursdays from 6 PM - 8 PM
+                        Mondays and Wednesday from 6 PM - 8 PM
                     </template>
                 </course-card>
                 <course-card border-color="border-green-light" icon-color="bg-green-lightest" icon-url="<?php echo get_template_directory_uri(); ?>/img/app.png">
@@ -95,10 +95,10 @@ get_header();
                                 knowledge of HTML and CSS and be very familiar with the functionalities of a broad
                                 number of mobile applications.
                     <template v-slot:starting>
-                    This course starts: 3rd Feb 2020
+                    This course starts: 10th Feb 2020
                     </template>
                     <template v-slot:schedule>
-                    Tuesdays and Thursdays from 6 PM - 8 PM
+                    Mondays and Wednesday from 6 PM - 8 PM
                     </template>
                 </course-card>
                 <course-card :pre-register="true" border-color="border-green-light" icon-color="bg-green-lightest" icon-url="<?php echo get_template_directory_uri(); ?>/img/python.png">
@@ -148,7 +148,7 @@ get_header();
                             course-content outside
                             of class-hours. 
                             <template v-slot:starting>
-                    This course starts: 3rd Feb 2020
+                    This course starts: 10th Feb 2020
                     </template>
                     <template v-slot:schedule>
                     Tuesdays and Thursdays from 6 PM - 8 PM
@@ -177,7 +177,7 @@ get_header();
                             be willing to put in a significant amount of work into the course-content outside of
                             class-hours.
                             <template v-slot:starting>
-                    This course starts: 3rd Feb 2020
+                    This course starts: 10th Feb 2020
                     </template>
                     <template v-slot:schedule>
                     Tuesdays and Thursdays from 6 PM - 8 PM
