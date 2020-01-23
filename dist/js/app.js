@@ -1306,7 +1306,7 @@ var render = function() {
               },
               [
                 _c("img", {
-                  staticClass: "pt-3 mx-3 ",
+                  staticClass: "pt-3 mx-3 w-60",
                   attrs: { src: _vm.iconUrl }
                 })
               ]
@@ -13683,8 +13683,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/yannick/Sites/opencodingschool/wp-content/themes/open-coding-school-theme/src/js/app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! /Users/yannick/Sites/opencodingschool/wp-content/themes/open-coding-school-theme/src/sass/main.scss */"./src/sass/main.scss");
+__webpack_require__(/*! /mnt/c/xampp/htdocs/opencodingschool/wp-content/themes/open-coding-school-theme/src/js/app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! /mnt/c/xampp/htdocs/opencodingschool/wp-content/themes/open-coding-school-theme/src/sass/main.scss */"./src/sass/main.scss");
 
 
 /***/ })
