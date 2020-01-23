@@ -177,9 +177,7 @@ get_header();
 
         <div class="py-4">
             <p class="font-secondary font-bold">Intermediate class</p>
-            <div class="flex xs:block relative w-100 ">
-
-
+            <div class="flex flex-wrap xs:block relative w-100 ">
                 <div
                     class="xl:w-33 pb-3  mx-2 xs:mx-0 xs:my-3 card relative h-100 flex md:block bg-green-lighter   rounded-lg">
                     <div class="w-40 md:w-70 md:mx-auto">

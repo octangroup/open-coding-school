@@ -1,5 +1,5 @@
 <template>
-    <div  class="w-33 mx-auto pb-3 xs:mx-0 card xs:my-3 h-100 relative flex flex-wrap md:block border-1 border-solid  rounded-lg" v-bind:class="[borderColor]">
+    <div  class="w-30 mx-auto pb-3 xs:mx-0 card xs:my-3 h-100 relative flex flex-wrap md:block border-1 border-solid  rounded-lg" v-bind:class="[borderColor]">
                     <div class="w-30 md:w-70 md:mx-auto pl-2">
                         <div v-if="iconUrl" class="h-18 w-rem-18 rounded-full mx-auto my-3" v-bind:class="[iconColor]"><img
                                 :src="iconUrl" class="pt-3 mx-3 ">

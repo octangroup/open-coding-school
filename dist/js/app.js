@@ -1292,7 +1292,7 @@ var render = function() {
     "div",
     {
       staticClass:
-        "w-33 mx-auto pb-3 xs:mx-0 card xs:my-3 h-100 relative flex flex-wrap md:block border-1 border-solid  rounded-lg",
+        "w-30 mx-auto pb-3 xs:mx-0 card xs:my-3 h-100 relative flex flex-wrap md:block border-1 border-solid  rounded-lg",
       class: [_vm.borderColor]
     },
     [
