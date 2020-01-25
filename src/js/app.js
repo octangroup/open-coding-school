@@ -1,5 +1,6 @@
 
 window.Vue = require('vue');
+window._ = require('lodash');
 
 /**
  * The following block of code may be used to automatically register your
