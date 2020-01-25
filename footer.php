@@ -27,7 +27,7 @@
 </footer>
 </div><!-- #page -->
 <script src="<?php echo get_template_directory_uri(); ?>/dist/js/app.js"></script>
-
+<?php wp_footer(); ?>
 
 </body>
 </html>
