@@ -11,7 +11,7 @@
             </ul>
             <ul class="list text-right w-50 lg:w-60  ml-auto  md:my-0 xs:my-0 px-0 mr-0  text-base">
 
-                <li class="inline-block ml-3 mr-0 lg:mr-0"><a href="https://forms.gle/K3xB51gE39Ymqkco7" class="mx-0">
+                <li class="inline-block ml-3 mr-0 lg:mr-0"><a target="_blank" href="https://forms.gle/K3xB51gE39Ymqkco7" class="mx-0">
                         <button
                             class="btn btn-accent text-black transition-250ms rounded-lg font-bold border-1 mx-0">
                             Register
