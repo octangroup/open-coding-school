@@ -21,9 +21,7 @@ get_header();
             >
             <div class="flex xs:block relative w-90 text-white mx-auto">
                 <div class="w-50 md:w-100 xs:w-100 my-5">
-                    <h2 class="xs:text-3xl font-primary my-0">Learn
-
-                        Coding Today</h2>
+                    <h2 class="xs:text-3xl font-primary my-0 capitalize">Coding classes - open to everyone</h2>
 
                     <div>
                         <p class="font-secondary">The Open Coding School offers the full spectrum of programming courses
@@ -52,14 +50,14 @@ get_header();
         </div>
     </div>
     <div id="courses" class="panel-body w-85 mx-auto py-5 xs:py-0  h-100">
-        <h4 class="text-2xl my-0 font-primary text-center font-bold">Courses We Offer</h4>
+        <h4 class="text-2xl my-0 font-primary text-center font-bold">Courses we offer</h4>
         <div class="py-3">
-            <p class="font-secondary font-bold my-4">Beginner class</p>
+            <p class="font-secondary font-bold my-4">Introductory classes</p>
             <div class="flex flex-wrap xs:block">
 
                 <course-card border-color="border-green-light" icon-color="bg-green-lightest" icon-url="<?php echo get_template_directory_uri(); ?>/img/machine-learning (1).png">
                     <template v-slot:title>
-                    Web Design
+                        Introduction to web development
                     </template>
                     <template v-slot:subtitle>
                     Learn to build great interactive websites and web
@@ -82,7 +80,7 @@ get_header();
                 </course-card>
                 <course-card border-color="border-green-light" icon-color="bg-green-lightest" icon-url="<?php echo get_template_directory_uri(); ?>/img/app.png">
                     <template v-slot:title>
-                        Mobile App
+                    Introduction to mobile app development
                     </template>
                     <template v-slot:subtitle>
                     In this course you will start out by prototyping mobile applications with different online tools like InVision, Figma and Thunkable
@@ -95,15 +93,15 @@ get_header();
                                 knowledge of HTML and CSS and be very familiar with the functionalities of a broad
                                 number of mobile applications.
                     <template v-slot:starting>
-                    This course starts: 10th Feb 2020
+                    This course starts: 11th Feb 2020
                     </template>
                     <template v-slot:schedule>
-                    Mondays and Wednesdays from 6 PM - 8 PM
+                    Tuesdays and Thursdays from 6 PM - 8 PM
                     </template>
                 </course-card>
                 <course-card :pre-register="true" border-color="border-green-light" icon-color="bg-green-lightest" icon-url="<?php echo get_template_directory_uri(); ?>/img/python.png">
                     <template v-slot:title>
-                    Python programming
+                    Introduction to Python programming
                     </template>
                     <template v-slot:subtitle>
                     Python is the world’s fastest growing programming
@@ -128,11 +126,11 @@ get_header();
 
 
         <div class="py-4">
-            <p class="font-secondary font-bold">Intermediate class</p>
+            <p class="font-secondary font-bold">Intermediate classes</p>
             <div class="flex flex-wrap xs:block relative w-100 ">
             <course-card border-color="border-orange" icon-color="bg-orange-lighter" icon-url="<?php echo get_template_directory_uri(); ?>/img/machine-learning.png">
                     <template v-slot:title>
-                    Web Design
+                        From intermediate to advanced web development
                     </template>
                     <template v-slot:subtitle>
                     This course brings you from an intermediate understanding
@@ -151,7 +149,7 @@ get_header();
                     This course starts: 10th Feb 2020
                     </template>
                     <template v-slot:schedule>
-                    Tuesdays and Thursdays from 6 PM - 8 PM
+                    Mondays and Wednesdays from 6 PM - 8 PM
                     </template>
                 </course-card>
 
@@ -159,7 +157,7 @@ get_header();
 
                 <course-card border-color="border-orange" icon-color="bg-orange-lighter" icon-url="<?php echo get_template_directory_uri(); ?>/img/app2.png">
                     <template v-slot:title>
-                    Mobile App
+                    From intermediate to advanced mobile app development
                     </template>
                     <template v-slot:subtitle>
                     This course will boost your mobile app development skills
@@ -177,7 +175,7 @@ get_header();
                             be willing to put in a significant amount of work into the course-content outside of
                             class-hours.
                             <template v-slot:starting>
-                    This course starts: 10th Feb 2020
+                    This course starts: 11th Feb 2020
                     </template>
                     <template v-slot:schedule>
                     Tuesdays and Thursdays from 6 PM - 8 PM
@@ -219,12 +217,12 @@ get_header();
 
 
             <div class="py-4">
-                <p class="font-secondary font-bold">Advanced class</p>
+                <p class="font-secondary font-bold">Advanced classes</p>
                 <div class="flex xs:block">
 
                 <course-card :pre-register="true" border-color="border-red-light" icon-color="bg-red-lighter" icon-url="<?php echo get_template_directory_uri(); ?>/img/php.png">
                     <template v-slot:title>
-                    Advanced Software architecture with PHP
+                    Advanced software architecture with PHP
                     </template>
                     <template v-slot:subtitle>
                     In this course you will go beyond coding
@@ -388,7 +386,11 @@ get_header();
                         <img src="<?php echo get_template_directory_uri(); ?>/img/pin (1).png" class="">
                     </div>
                     <div class="w-90 mx-4">
-                        <p class="text-xl my-0 font-light"> KG 8 Ave, House Kigali</p>
+                        <p class="text-xl my-0 font-light"> <a target="_blank" href="https://www.google.com/maps/place/Octan+Group/@-1.932977,30.0693776,15z/data=!4m5!3m4!1s0x19dca766a9e60847:0x4eb7dc21ba41fa6!8m2!3d-1.9253419!4d30.0700919" class="inherit-color no-underline">27 Kg 8 Ave
+                                Kigali,
+                                Rwanda
+                            </a>
+                            </p>
                     </div>
                 </div>
 
