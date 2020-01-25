@@ -379,8 +379,9 @@ get_header();
                 <h4 class="text-3xl text-center font-primary my-3">Join Today</h4>
 
             </div>
-            <div class=" text-white py-3 w-90 mx-auto">
-                <div class="flex py-3">
+            <div class=" text-white py-3 mx-auto w-90">
+               <div class="xl:w-60">
+               <div class="flex py-3">
                     <div class="w-8 text-white">
 
                         <img src="<?php echo get_template_directory_uri(); ?>/img/pin (1).png" class="">
@@ -414,6 +415,7 @@ get_header();
                             month, advanced courses cost 80,000 RWF per month</p>
                     </div>
                 </div>
+               </div>
 
             </div>
 
