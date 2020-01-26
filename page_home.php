@@ -19,7 +19,7 @@ get_header();
     <div class="panel-body  mx-auto py-3 h-100">
         <div class=" w-85  mx-auto card h-100 m-0 p-0 bg-primary flex rounded-lg">
             <div class="flex xs:block relative w-90 text-white mx-auto">
-                <div class="w-50 md:w-100 xs:w-100 my-5">
+                <div class="w-50 md:w-100 xs:w-100 my-5 xs:px-2">
                     <h2 class="xs:text-3xl font-primary my-0 capitalize">Coding classes - open to everyone</h2>
 
                     <div>
@@ -40,8 +40,8 @@ get_header();
 
                 </div>
 
-                <div class="w-50 absolute hidden xl:block -r-15 -t-10">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/pic.png" class="clip-full">
+                <div class="lg:w-65 w-50 absolute hidden xl:block lg:block lg:-t-5 -r-15 -t-10">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/pic.png" class="w-100">
 
                 </div>
 
@@ -49,7 +49,7 @@ get_header();
 
         </div>
     </div>
-    <div id="courses" class="panel-body w-85 mx-auto py-5 xs:py-0  h-100">
+    <div id="courses" class="panel-body w-85 mx-auto py-5 xs:pt-5 xs:pb-3  h-100">
         <h4 class="text-2xl my-0 font-primary text-center font-bold">Courses we offer</h4>
         <div class="py-3">
             <p class="font-secondary font-bold my-4">Introductory classes</p>
@@ -199,7 +199,7 @@ get_header();
 
             <div class="py-4">
                 <p class="font-secondary font-bold">Advanced classes</p>
-                <div class="flex xs:block">
+                <div class="flex flex-wrap xs:block">
 
                     <course-card :pre-register="true" border-color="border-red-light" icon-color="bg-red-lighter"
                         icon-url="<?php echo get_template_directory_uri(); ?>/img/php.png">
@@ -297,7 +297,7 @@ get_header();
 
             </div>
             <div
-                class="w-45 xs:w-100 md:w-100 md:ml-0 md:my-5 xs:my-5 xs:ml-0 ml-12 card relative h-100 flex xs:block bg-orange-lighter rounded-lg">
+                class="w-45 xs:w-100 md:w-100 md:ml-0 md:my-5 xs:my-5 xs:ml-0 mx-auto card relative h-100 flex xs:block bg-orange-lighter rounded-lg">
                 <div class="w-20  absolute">
                     <div
                         class="h-24 w-rem-24 bg-white absolute rounded-full -mx-12 xs:-mx-16 my-3 text-center py-3 px-5 text-4xl">
@@ -357,7 +357,7 @@ get_header();
                             <img src="<?php echo get_template_directory_uri(); ?>/img/pin (1).png" class="">
                         </div>
                         <div class="w-90 mx-4">
-                            <p class="text-xl my-0 font-light"> <a target="_blank"
+                            <p class="text-xl xs:text-lg sm:text-lg my-0 font-light"> <a target="_blank"
                                     href="https://www.google.com/maps/place/Octan+Group/@-1.932977,30.0693776,15z/data=!4m5!3m4!1s0x19dca766a9e60847:0x4eb7dc21ba41fa6!8m2!3d-1.9253419!4d30.0700919"
                                     class="inherit-color no-underline">27 Kg 8 Ave
                                     Kigali,
@@ -373,7 +373,7 @@ get_header();
                             <img src="<?php echo get_template_directory_uri(); ?>/img/teacher.png" class="">
                         </div>
                         <div class="w-90 mx-4">
-                            <p class="text-xl my-0 font-light">Classes take place twice a week for two hours</p>
+                            <p class="text-xl xs:text-lg sm:text-lg my-0 font-light">Classes take place twice a week for two hours</p>
                         </div>
                     </div>
 
@@ -383,7 +383,7 @@ get_header();
                             <img src="<?php echo get_template_directory_uri(); ?>/img/tag.png" class="pt-2">
                         </div>
                         <div class="w-90 mx-4">
-                            <p class="text-xl my-0 font-light">Introductory and intermediate courses cost 40,000 RWF per
+                            <p class="text-xl xs:text-lg sm:text-lg my-0 font-light">Introductory and intermediate courses cost 40,000 RWF per
                                 month, advanced courses cost 80,000 RWF per month</p>
                         </div>
                     </div>

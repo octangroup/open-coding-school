@@ -1,5 +1,5 @@
 <template>
-    <div class="w-30 mx-auto pb-3 xs:mx-0  xs:my-3 h-100 relative p-2 border-1 border-solid  rounded-lg"
+    <div class="w-30 md:w-45 sm:w-45 xs:w-100 mx-auto mb-4 pb-3 xs:mx-0  xs:my-3 h-100 relative p-2 border-1 border-solid  rounded-lg"
         v-bind:class="[borderColor]">
         <div class="w-100 font-primary my-2 px-2">
             <div v-if="iconUrl" class="h-18 w-rem-18 rounded-full mx-2 mr-3 mt-1 mb-3 mx float-left"
