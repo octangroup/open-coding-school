@@ -80,7 +80,7 @@ get_header();
                     </template>
                     In this course you will start out by prototyping mobile applications with different online tools
                     like InVision, Figma and Thunkable. Thereafter you will be introduced to programming mobile
-                    applications for Android phones with Java. You will cover frameworks and best practices for creating
+                    applications for Android phones with Kotlin. You will cover frameworks and best practices for creating
                     the user interface and learn how to create the backend-logic and the database-structure that
                     supports your app.
                     Participants of this course should have some prior knowledge of HTML and CSS and be very familiar
@@ -149,11 +149,11 @@ get_header();
                         </template>
                         This course will boost your mobile app development skills for and provide you with the tools and
                         knowledge to build complex applications alone or in teams. We will focus on app development for
-                        Android with Java and build a number of hands-on projects together. We will focus on the ins and
+                        Android with Kotlin and build a number of hands-on projects together. We will focus on the ins and
                         outs of actually making that app work and all participants will end up with a portfolio of apps
                         they have uploaded to the Android PlayStore.
                         To participate in this course you need to have solid foundational knowledge of mobile app
-                        development with Java for Android. You need to already have created at least some simple Android
+                        development with Kotlin for Android. You need to already have created at least some simple Android
                         applications and be willing to put in a significant amount of work into the course-content
                         outside of class-hours.
 
