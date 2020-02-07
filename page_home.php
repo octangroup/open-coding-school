@@ -358,7 +358,7 @@ get_header();
                         </div>
                         <div class="w-90 mx-4">
                             <p class="text-xl xs:text-lg sm:text-lg my-0 font-light"> <a target="_blank"
-                                    href="https://www.google.com/maps/place/Octan+Group/@-1.932977,30.0693776,15z/data=!4m5!3m4!1s0x19dca766a9e60847:0x4eb7dc21ba41fa6!8m2!3d-1.9253419!4d30.0700919"
+                                    href="https://g.page/octangrp?share"
                                     class="inherit-color no-underline">27 Kg 8 Ave
                                     Kigali,
                                     Rwanda
