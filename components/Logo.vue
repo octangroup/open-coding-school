@@ -1,5 +1,5 @@
 <template>
-  <svg
+  <!-- <svg
     class="NuxtLogo"
     width="245"
     height="180"
@@ -21,9 +21,11 @@
         fill-rule="nonzero"
       />
     </g>
-  </svg>
+  </svg> -->
+  <img src="~/static/img/logo.png" />
 </template>
-<style>
+
+<!-- <style>
 .NuxtLogo {
   animation: 1s appear;
   margin: auto;
@@ -37,4 +39,4 @@
     opacity: 1;
   }
 }
-</style>
+</style> -->
