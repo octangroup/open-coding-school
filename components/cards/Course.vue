@@ -20,7 +20,7 @@
             class="my-0 md:text-center font-primary leading-tight"
             :class="{
               'h-rem-32 text-3xl': !showMore,
-              'text-xl': showMore
+              'text-2xl': showMore
             }"
           >
             {{ title }}
@@ -34,10 +34,10 @@
               {{ body }}
             </p>
             <div v-show="showMore">
-              <p class="my-3 text-sm font-bold">
+              <p class="my-3 text-lg font-medium">
                 {{ startDate }}
               </p>
-              <p class="my-3 text-sm font-bold">
+              <p class="my-3 text-lg font-medium">
                 {{ schedule }}
               </p>
               <a
@@ -47,7 +47,7 @@
                     ? 'https://forms.gle/BYgx1miPYxUGc5qW8'
                     : 'https://forms.gle/K3xB51gE39Ymqkco7'
                 "
-                class="my-3 text-sm font-bold text-blue"
+                class="btn btn-primary my-12 rounded text-xl font-bold text-white "
               >
                 {{ preRegister ? 'Pre-register' : 'Register Now' }}
               </a>
@@ -55,10 +55,16 @@
           </div>
           <!-- </div> -->
           <p
-            class="text-xs font-bold text-xl mb-0 mt-6 mr-4 cursor-pointer opacity-70"
+            class="text-xs font-bold mb-0  mr-4 cursor-pointer opacity-70"
+            :class="{ 'text-xl mt-3': !showMore, 'text-base mt-12': showMore }"
             @click="showMore = !showMore"
           >
             {{ showMore ? 'Show less' : 'Read more' }}
+            <font-awesome-icon
+              fas
+              :icon="!showMore ? 'arrow-circle-right' : 'arrow-circle-left'"
+              class="ml-2"
+            />
           </p>
         </div>
       </div>
