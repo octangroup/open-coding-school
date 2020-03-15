@@ -6,7 +6,7 @@
       <div class="w-85  flex mx-auto py-6 mx-0">
         <ul class="w-50 lg:w-40 list mx-0 px-0 ">
           <li class="sm:w-40 m-0 px-0">
-            <a href="" class="xl:text-3xl text-2xl  font-primary"
+            <a href="" class="xl:text-2xl text-2xl  font-secondary"
               ><Logo class="w-rem-12 mr-3" />
               <span class="xs:hidden"> {{ title }}</span>
             </a>

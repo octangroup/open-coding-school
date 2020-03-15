@@ -3,6 +3,7 @@
     <MainSection />
     <CourseSection />
     <AdvantageSection />
+    <JoinSection />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import MainSection from '~/components/sections/Main'
 import CourseSection from '~/components/sections/Course'
 import AdvantageSection from '~/components/sections/Advantage'
+import JoinSection from '~/components/sections/Join'
 
 export default {
   components: {
     MainSection,
     CourseSection,
-    AdvantageSection
+    AdvantageSection,
+    JoinSection
   }
 }
 </script>

@@ -1,7 +1,12 @@
 <template>
   <BodySection title="Courses we offer">
-    <div v-for="(course, i) in coursers" :key="i" class="transition-500ms">
-      <h4 class="font-secondary font-bold my-6 text-xl">{{ course.title }}</h4>
+    <div
+      v-for="(course, i) in coursers"
+      :key="i"
+      class="transition-500ms"
+      :class="{ 'mb-32': i < coursers.length - 1 }"
+    >
+      <h4 class="font-primary font-bold my-4 text-4xl">{{ course.title }}</h4>
       <div class="flex flex-wrap xs:block transition-500ms">
         <CourseCard
           v-for="(card, key) in course.cards"
