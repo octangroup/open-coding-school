@@ -1,32 +1,36 @@
 <template>
   <div
-    class="w-30 md:w-45 sm:w-45 xs:w-100 mx-auto mb-4 pb-3 xs:mx-0  xs:my-3 h-100 relative p-2 border-1 border-solid  rounded-lg"
+    class="w-30 md:w-45 sm:w-45 xs:w-100 mx-auto mb-6 pb-4 xs:mx-0 xs:my-4 h-100 relative p-3 border-1 border-solid rounded-lg transition-500ms"
     :class="[borderColor]"
   >
-    <div class="w-100 font-primary my-2 px-2">
-      <div
-        v-if="iconUrl"
-        class="h-18 w-rem-18 rounded-full mx-2 mr-3 mt-1 mb-3 mx float-left"
-        :class="[iconColor]"
-      >
-        <img :src="iconUrl" class="pt-3 mx-3 w-60" />
+    <div class="w-100 font-primary my-3 px-3 transition-500ms overflow-hidden">
+      <div class="flex">
+        <div
+          v-if="iconUrl"
+          class="h-rem-18 w-rem-18 rounded-full flex justify-center items-center"
+          :class="[iconColor]"
+        >
+          <img :src="iconUrl" class="w-60" />
+        </div>
+        <div class="pl-5 w-80 flex items-center">
+          <h4 class="my-0 text-xl md:text-center font-primary font-bold">
+            {{ title }}
+          </h4>
+        </div>
       </div>
-      <h4 class="my-2 text-xl md:text-center font-primary font-bold">
-        <slot name="title"></slot>
-      </h4>
       <!-- <div class="h-40 overflow-hidden"> -->
-      <p v-show="showMore" ref="body" class="mt-2 mb-0 text-sm font-secondary">
-        <slot></slot>
+      <p v-show="showMore" ref="body" class="mt-3 mb-0 text-sm font-secondary">
+        {{ body }}
       </p>
-      <p v-show="!showMore" class="mt-2 mb-0 text-sm font-secondary">
+      <p v-show="!showMore" class="mt-3 mb-0 text-sm font-secondary h-rem-27">
         {{ subtitle }}
       </p>
       <div v-show="showMore">
-        <p class="my-2 text-sm font-bold">
-          <slot name="starting"></slot>
+        <p class="my-3 text-sm font-bold">
+          {{ startDate }}
         </p>
-        <p class="my-2 text-sm font-bold">
-          <slot name="schedule"></slot>
+        <p class="my-3 text-sm font-bold">
+          {{ schedule }}
         </p>
         <a
           target="_blank"
@@ -35,14 +39,14 @@
               ? 'https://forms.gle/BYgx1miPYxUGc5qW8'
               : 'https://forms.gle/K3xB51gE39Ymqkco7'
           "
-          class="my-2 text-sm font-bold text-blue"
+          class="my-3 text-sm font-bold text-blue"
         >
           {{ preRegister ? 'Pre-register' : 'Register Now' }}
         </a>
       </div>
       <!-- </div> -->
       <p
-        class="text-xs text-blue font-bold font-primary my-0 text-right mr-3 cursor-pointer"
+        class="text-xs text-blue font-bold font-primary mb-0 mt-3 text-right mr-4 cursor-pointer"
         @click="showMore = !showMore"
       >
         {{ showMore ? 'Show less' : 'Read more' }}
@@ -52,7 +56,6 @@
 </template>
 
 <script>
-import trim from 'lodash/trim'
 import truncate from 'lodash/truncate'
 export default {
   name: 'CourseCard',
@@ -76,26 +79,36 @@ export default {
     iconColor: {
       type: String,
       default: 'bg-green-lightest'
+    },
+    title: {
+      type: String,
+      default: ''
+    },
+    body: {
+      type: String,
+      default: ''
+    },
+    startDate: {
+      type: String,
+      default: ''
+    },
+    schedule: {
+      type: String,
+      default: ''
     }
   },
   data() {
     return {
-      showMore: false,
-      slotText: ''
+      showMore: false
     }
   },
   computed: {
     subtitle() {
-      return truncate(this.slotText, {
-        length: 200,
+      return truncate(this.body, {
+        length: 230,
         separator: ' '
       })
     }
-  },
-  mounted() {
-    let text = this.$refs.body.innerHTML.replace(/(\r\n|\n|\r)/gm, '')
-    text = text.replace(/\s+/g, ' ')
-    this.slotText = trim(text)
   }
 }
 </script>

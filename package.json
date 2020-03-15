@@ -24,6 +24,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
+    "animate.css": "^3.7.2",
     "lodash": "^4.17.15",
     "nuxt": "^2.0.0",
     "og-css": "^3.0.0"
