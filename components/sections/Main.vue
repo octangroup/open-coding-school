@@ -4,7 +4,7 @@
       <div class="flex xs:block relative w-90 text-white mx-auto">
         <div class="w-60 md:w-100 xs:w-100 my-12 xs:px-3">
           <h2
-            class="xs:text-3xl text-6xl leading-tight mb-6 font-primary my-0 capitalize"
+            class="xs:text-3xl text-8xl leading-tight mb-6 font-primary my-0 capitalize"
           >
             Coding classes - open to everyone
           </h2>
